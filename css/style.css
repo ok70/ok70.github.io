@@ -56,6 +56,17 @@ body {
     color: #ABCCBB !important;
 }
 
-.md, .mdi {
+.md, .mdi, .md span {
     color: #ABCCBB !important;
+}
+
+
+/* Responsive Code */
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size: 6rem;
+    }
+    .subtitle {
+        letter-spacing: 5px;
+    }
 }
